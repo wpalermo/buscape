@@ -10,6 +10,8 @@ public class App
 {
     public static void main( String[] args )
     {
-       new Main().start("MMMM");
+      
+    	System.out.println("SAIDA: " + new Main().start("LMRDDMMUU"));
+    	
     }
 }
