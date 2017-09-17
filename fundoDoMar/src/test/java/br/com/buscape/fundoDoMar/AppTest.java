@@ -1,5 +1,6 @@
 package br.com.buscape.fundoDoMar;
 
+import br.com.buscape.fundoDoMar.main.Main;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +34,8 @@ public class AppTest
      */
     public void testApp()
     {
+    	
+    	System.out.println(new Main().start("LMRDDMMUU"));
         assertTrue( true );
     }
 }
